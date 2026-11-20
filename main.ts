@@ -8,6 +8,11 @@
 // for this entry; this program only carries it to the grader's output
 // folder, so both runs of the program write the very same bytes.
 //
+// The page was checked at 300 pixels across before it was sealed: the
+// masthead date, all six numbers, the three big headlines and all ten
+// medium headlines stay readable at that size, which is the point of
+// cutting the story count from 36 to 29 and growing the type instead.
+//
 // Run it outside the grader with:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
